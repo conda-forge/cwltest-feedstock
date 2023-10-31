@@ -20,13 +20,14 @@ requirements:
   host:
     - pip
     - python
+    - setuptools >=45
+    - setuptools_scm >=8.0.4,<9
   run:
     - python
     - schema-salad >=5.0.20200220195218,<9
     - junit-xml >=1.8
     - pytest >=7,<8
     - defusedxml
-    - typing_extensions
 
 test:
   imports:
