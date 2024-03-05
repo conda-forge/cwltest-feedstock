@@ -10,7 +10,7 @@ source:
   sha256: f59cb666de2bb9089d89290ab67d30f540aa2245cc5343a3200a5218bce681f8
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   entry_points:
     - cwltest=cwltest.main:main
@@ -26,7 +26,7 @@ requirements:
     - python
     - schema-salad >=5.0.20200220195218,<9
     - junit-xml >=1.8
-    - pytest >=7,<8
+    - pytest >=7,<9
     - defusedxml
 
 test:
