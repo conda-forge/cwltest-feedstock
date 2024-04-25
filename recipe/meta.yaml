@@ -1,5 +1,5 @@
 {% set name = "cwltest" %}
-{% set version = "2.5.20240304113812" %}
+{% set version = "2.5.20240425111257" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f59cb666de2bb9089d89290ab67d30f540aa2245cc5343a3200a5218bce681f8
+  sha256: 6da11b08de4fed2c6d92c63e7cfb7718ae3b76a3d41609d19ab875f3097974b5
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   entry_points:
     - cwltest=cwltest.main:main
