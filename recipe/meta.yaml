@@ -10,7 +10,7 @@ source:
   sha256: 063bcb3ea3945b05c018b14940d4f308c819da5ab428794b439f9945e94a5c40
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   entry_points:
     - cwltest=cwltest.main:main
