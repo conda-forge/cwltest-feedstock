@@ -1,13 +1,13 @@
 {% set name = "cwltest" %}
-{% set version = "2.6.20251216093331" %}
+{% set version = "2.7.20260814074913" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 77865fee9798b3be4b41c53093a3ace79f7f11a1cfda42ea2399fc2467dc7572
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0ccc338b931f22730c1040b04aead7bafd02dda4ce11163641d026779b5540cd
 
 build:
   number: 0
