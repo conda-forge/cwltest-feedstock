@@ -17,7 +17,6 @@ This is a testing tool for checking the output of Tools and Workflows described
 with the Common Workflow Language.  Among other uses, it is used to run the CWL
 conformance tests.
 
-
 Current build status
 ====================
 
@@ -244,7 +243,4 @@ Feedstock Maintainers
 =====================
 
 * [@mr-c](https://github.com/mr-c/)
-
-
-<!-- dummy commit to enable rerendering -->
 
